@@ -46,7 +46,8 @@ setuptools.setup(
         "inflection",
         "contextvars;python_version<'3.7'",
         "backoff",
-        "requests"
+        "requests",
+        "security==1.3.1",
     ],
     extras_require={
         "notebook": ["jupyter"],
